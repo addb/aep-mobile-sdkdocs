@@ -428,6 +428,10 @@ module.exports = {
                         path: "/documentation/adobe-media-analytics",
                         pages: [
                             {
+                                title: "Migration Guide",
+                                path: "/documentation/adobe-media-analytics/migration-guide"
+                            },
+                            {
                                 title: "Overview",
                                 path: "/documentation/adobe-media-analytics"
                             },
