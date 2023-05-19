@@ -121,7 +121,20 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 ```
 
 
-<Variant platform="android" section="api-changes" repeat="12"/>
+<Variant platform="android" section="api-changes" repeat="15"/>
+
+#### package name
+
+The Media for Edge Network extension uses the same class names as the Media Analytics extension. The Java package, however, is changed to `com.adobe.marketing.mobile.edge.media`. 
+
+```diff
+- import com.adobe.marketing.mobile.Media;
+- import com.adobe.marketing.mobile.MediaConstants;
+- import com.adobe.marketing.mobile.MediaTracker;
++ import com.adobe.marketing.mobile.edge.media.Media;
++ import com.adobe.marketing.mobile.edge.media.MediaConstants;
++ import com.adobe.marketing.mobile.edge.media.MediaTracker;
+```
 
 #### createMediaObject
 
