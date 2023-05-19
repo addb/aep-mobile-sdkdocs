@@ -5,7 +5,7 @@ import Tabs from './tabs/index.md'
 <InlineAlert variant="success" slots="header, text"/>
 Media for Edge Network extension is now available. 
 
-Refer [Migrating to Media for Edge Network Guide](migration-guide.md) and [Media for Edge Network extension](../media-for-edge-network/index.md) to learn more about implementing Media Analytics using Adobe Experience Edge.
+Refer to the [Migrating to Media for Edge Network Guide](migration-guide.md) and [Media for Edge Network extension](../media-for-edge-network/index.md) documentation to learn more about implementing Media Analytics using Adobe Experience Edge.
 
 <InlineAlert variant="warning" slots="text"/>
 

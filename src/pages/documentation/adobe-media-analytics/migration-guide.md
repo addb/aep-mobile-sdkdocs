@@ -1,6 +1,6 @@
 import Tabs from './tabs/migration-guide.md'
 
-# Migrating to Media for Edge Netowrk Extension
+# Migrating to Media for Edge Network Extension
 
 ## Configuration Changes
 
@@ -44,7 +44,7 @@ iOS
 | AEPIdentity |AEPEdgeIdentity |
 | AEPMedia | AEPEdgeMedia |
 
-Refer [configure and setup Media for Edge Network](../media-for-edge-network/index.md) to learn more.
+Refer to the guide on how to [configure and setup Media for Edge Network](../media-for-edge-network/index.md) to learn more.
 
 
 ## Install extensions 
@@ -75,7 +75,7 @@ iOS
 
 ## Public API changes
 
-All Numeric parameters of the public APIs have been updated to type Int.
+All Numeric parameters of the public APIs have been updated to type `Integer`.
 
 <TabsBlock orientation="horizontal" slots="heading, content" repeat="2"/>
 
@@ -90,7 +90,9 @@ iOS
 
 ## Granular ad tracking
 
-Media extension allowed for ad content tracking of `1 second` when setting the `MediaConstants.MediaObjectKey.GRANULAR_AD_TRACKING` key in the media object. Media for Edge Network extension is even more customizable and now the ad content tracking interval can be set using the tracker configuration to a value between `[1-10] seconds`. For more details, refer to the [createTrackerWithConfig API](../media-for-edge-network/api-reference.md/#createTrackerWithConfig).
+Media extension allowed for ad content tracking of `1 second` when setting the `MediaConstants.MediaObjectKey.GRANULAR_AD_TRACKING` key in the media object. 
+
+Media for Edge Network extension supports customizable ping intervals. `Ad content` tracking interval can be set in range `[1-10] seconds` and `main content` tracking interval can be set in range `[10-50] seconds`. For more details, refer to the [createTrackerWithConfig API](../media-for-edge-network/api-reference.md/#createTrackerWithConfig).
 
 <TabsBlock orientation="horizontal" slots="heading, content" repeat="2"/>
 
@@ -105,8 +107,8 @@ iOS
 
 ## Downloaded content tracking
 
-Media for Edge Network extension currently does not Downloaded content tracking workflow. 
+Media for Edge Network extension currently does not support the downloaded content tracking workflow.
 
 
 ## API reference
-The Media for Edge Network extension has similar APIs like Media extension. Please refer the [API reference docs](../media-for-edge-network/api-reference.md) to check out the APIs and their usage.
+The Media for Edge Network extension offers APIs that are similar to those provided by the Media extension. To explore the Media for Edge Network extension APIs and understand their usage, please refer to the [API reference docs](../media-for-edge-network/api-reference.md).
