@@ -75,7 +75,7 @@ iOS
 
 ## Public API changes
 
-All Numeric parameters of the public APIs have been updated to type `Integer`.
+All numeric parameters of the public APIs have been updated to type `Integer`.
 
 <TabsBlock orientation="horizontal" slots="heading, content" repeat="2"/>
 
@@ -92,7 +92,7 @@ iOS
 
 Media extension allowed for ad content tracking of `1 second` when setting the `MediaConstants.MediaObjectKey.GRANULAR_AD_TRACKING` key in the media object. 
 
-Media for Edge Network extension supports customizable ping intervals. `Ad content` tracking interval can be set in range `[1-10] seconds` and `main content` tracking interval can be set in range `[10-50] seconds`. For more details, refer to the [createTrackerWithConfig API](../media-for-edge-network/api-reference.md/#createTrackerWithConfig).
+Media for Edge Network extension supports customizable ping intervals. `Ad content` tracking interval can be set in the range `[1-10] seconds`, and `main content` tracking interval can be set in the range `[10-50] seconds`. For more details, refer to the [createTrackerWithConfig API](../media-for-edge-network/api-reference.md/#createTrackerWithConfig).
 
 <TabsBlock orientation="horizontal" slots="heading, content" repeat="2"/>
 
