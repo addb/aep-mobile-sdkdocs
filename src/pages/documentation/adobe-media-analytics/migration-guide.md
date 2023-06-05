@@ -1,6 +1,6 @@
 import Tabs from './tabs/migration-guide.md'
 
-# Migrating to Media for Edge Network Extension
+# Migrating to Adobe Streaming Media for Edge Network Extension
 
 ## Configuration Changes
 

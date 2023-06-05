@@ -6,7 +6,7 @@
 implementation 'com.adobe.marketing.mobile:core:2.+'
 implementation 'com.adobe.marketing.mobile:edge:2.+'
 implementation 'com.adobe.marketing.mobile:edgeidentity:2.+'
-implementation 'com.adobe.marketing.mobile:edgemedia:1.+'
+implementation 'com.adobe.marketing.mobile:edgemedia:2.+'
 ```
 
 <InlineNestedAlert variant="warning" header="false" iconPosition="left">
