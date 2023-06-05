@@ -188,7 +188,7 @@ The following APIs are **tracker instance** dependent. Create a tracker instance
 
 ### trackSessionStart
 
-Tracks the intention to start playback. This starts a tracking session on the MediaTracker instance. To resume a previously closed session, see the [media resume guide](#media-resume)
+Tracks the intention to start playback. This starts a tracking session on the MediaTracker instance. To resume a previously closed session, see the [media resume guide](#media-resume).
 
 | Parameter | Description | Required |
 | :--- | :--- | :---: |

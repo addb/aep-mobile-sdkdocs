@@ -1,6 +1,6 @@
 import Tabs from './tabs/migration-guide.md'
 
-# Migrating to Adobe Streaming Media for Edge Network Extension
+# Migrating to Adobe Streaming Media for Edge Network extension
 
 ## Configuration Changes
 
@@ -111,4 +111,4 @@ Media for Edge Network extension currently does not support the downloaded conte
 
 
 ## API reference
-The Media for Edge Network extension offers APIs that are similar to those provided by the Media extension. To explore the Media for Edge Network extension APIs and understand their usage, please refer to the [API reference docs](../media-for-edge-network/api-reference.md).
+The Media for Edge Network extension offers APIs that are similar to those provided by the Media Analytics extension. To explore the Media for Edge Network extension APIs and understand their usage, please refer to the [API reference docs](../media-for-edge-network/api-reference.md).
