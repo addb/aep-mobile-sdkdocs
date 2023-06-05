@@ -410,7 +410,7 @@ module.exports = {
                         ]
                     },
                     {
-                        title: "Adobe Media for Edge Network",
+                        title: "Adobe Streaming Media for Edge Network",
                         path: "/documentation/media-for-edge-network",
                         pages: [
                             {

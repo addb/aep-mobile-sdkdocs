@@ -1,6 +1,6 @@
 import Tabs from './tabs/index.md'
 
-# Adobe Edge Media Analytics for Audio and Video
+# Adobe Streaming Media for Edge Network
 The Media for Edge Nework extension enables tracking user's engagement and consumption of audio and video content on mobile devices.
 
 ## Before starting
@@ -18,21 +18,21 @@ Follow the full guide for setting up [Media Analytics for Edge Network with Expe
 
 Media for Edge Network requires Edge and Edge Identity extensions. Make sure to [configure the Edge extension in Data Collection UI](https://developer.adobe.com/client-sdks/documentation/edge-network/#configure-the-edge-network-extension-in-data-collection-ui) and [configure the Edge Identity extension in Data Collection UI](https://developer.adobe.com/client-sdks/documentation/identity-for-edge-network/#configure-the-identity-extension-in-the-data-collection-ui) before proceeding.
 
-## Configure Edge Media Analytics extension in the Data Collection UI
+## Configure Media for Edge extension in the Data Collection UI
 
 1. In the Data Collection UI, select the **Extensions** tab.
-2. On the **Catalog** tab, locate the **Adobe Edge Media Analytics for Audio and Video** extension, and select **Install**.
-3. Type the extension settings. For more information, see [Configure Media Analytics Extension](#configure-media-analytics-extension).
+2. On the **Catalog** tab, locate the **Adobe Streaming Media for Edge** extension, and select **Install**.
+3. Type the extension settings. For more information, see [Configure Media for Edge Extension](#configure-the-media-for-edge-extension).
 4. Select **Save**.
 5. Follow the publishing process to update your SDK configuration.
 
-## Configure the Edge Media Analytics extension
+## Configure the Media for Edge extension
 
 <InlineAlert variant="info" slots="text"/>
 
-![Adobe Edge Media Analytics Extension Configuration](./assets/index/configuration.png)
+![Adobe Streaming Media for Edge Extension Configuration](./assets/index/configuration.png)
 
-To configure the Edge Media Analytics extension, complete the following steps:
+To configure the Media for Edge extension, complete the following steps:
 
 ### Channel
 
@@ -46,7 +46,7 @@ Type the name of the media player in use (for example, _AVPlayer_, _Native Playe
 
 Type the version of the media player application/SDK.
 
-## Add Edge Media Analytics to your app
+## Add Media for Edge to your app
 
 <InlineAlert variant="info" slots="text"/>
 
