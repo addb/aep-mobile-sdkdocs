@@ -197,7 +197,7 @@ Tracks the intention to start playback. This starts a tracking session on the Me
 
 <InlineAlert variant="info" slots="text"/>
 
-Main ping interval can now be customized to duration between 10 to 50 seconds using [`createTrackerWithConfig`](#createTrackerWithConfig) API.
+Main ping interval can now be customized to duration between 10 to 50 seconds using [`createTrackerWithConfig`](#createtrackerwithconfig) API.
 
 <TabsBlock orientation="horizontal" slots="heading, content" repeat="2"/>
 
@@ -289,8 +289,8 @@ Tracks media events.
 
 | Parameter | Description | Required |
 | :--- | :--- | :--: |
-| `event` | The media event being tracked, use [Media event constants](#media-events-constants) | Yes|
-| `info` | For an `AdBreakStart` event, the AdBreak information is created by using the [`createAdBreakObjectWith`](#createAdBreakObjectWith) method.<br/> For an `AdStart` event, the Ad information is created by using the [`createAdObjectWith`](#createAdObjectWith) method.<br/> For a `ChapterStart` event, the Chapter information is created by using the [`createChapterObjectWith`](#createChapterObjectWith) method.<br/> For a `StateStart` and `StateEnd` event, the State information is created by using the [`createStateObjectWith`](#createStateObjectWith) method. | Yes/No* |
+| `event` | The media event being tracked, use [Media event constants](#media-events) | Yes|
+| `info` | For an `AdBreakStart` event, the AdBreak information is created by using the `createAdBreakObjectWith` method.<br/> For an `AdStart` event, the Ad information is created by using the `createAdObjectWith` method.<br/> For a `ChapterStart` event, the Chapter information is created by using the `createChapterObjectWith` method.<br/> For a `StateStart` and `StateEnd` event, the State information is created by using the `createStateObjectWith` method. | Yes/No* |
 | metadata | Optional context data can be provided for `AdStart` and `ChapterStart` events. This is not required for other events. | No |
 
 <InlineAlert variant="info" slots="text"/>

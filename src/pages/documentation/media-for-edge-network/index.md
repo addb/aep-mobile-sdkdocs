@@ -7,12 +7,12 @@ The Media for Edge Nework extension enables tracking user's engagement and consu
 
 ### Configure and Setup Adobe Streaming Media for Edge Network with Experience Platform
 
-1. [Define a report suite](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/media-sdk/setup/implementation-edge.html?lang=en#define-a-report-suite)
-2. [Set up the schema in Adobe Experience Platform](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/media-sdk/setup/implementation-edge.html?lang=en#set-up-the-schema-in-adobe-experience-platform)
-3. [Create a dataset in Adobe Experience Platform](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/media-sdk/setup/implementation-edge.html?lang=en#create-a-dataset-in-adobe-experience-platform)
-4. [Configure a datastream in Adobe Experience Platform](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/media-sdk/setup/implementation-edge.html?lang=en#configure-a-datastream-in-adobe-experience-platform)
+1. [Define a report suite](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/implementation-edge.html#define-a-report-suite)
+2. [Set up the schema in Adobe Experience Platform](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/implementation-edge.html#set-up-the-schema-in-adobe-experience-platform)
+3. [Create a dataset in Adobe Experience Platform](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/implementation-edge.html#create-a-dataset-in-adobe-experience-platform)
+4. [Configure a datastream in Adobe Experience Platform](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/implementation-edge.html#configure-a-datastream-in-adobe-experience-platform)
 
-Follow the full guide for setting up [Adobe Streaming Media for Edge Network with Experience Platform Edge](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/media-sdk/setup/implementation-edge.html?lang=en) before configuring and implementing the SDK.
+Follow the full guide for setting up [Adobe Streaming Media for Edge Network with Experience Platform Edge](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/media-sdk/setup/implementation-edge.html) before configuring and implementing the SDK.
 
 ### Configure and Install Dependencies
 

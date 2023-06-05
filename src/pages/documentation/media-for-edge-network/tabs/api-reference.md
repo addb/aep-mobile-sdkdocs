@@ -121,9 +121,9 @@ public static MediaTracker createTracker(Map<String, Object> config)
 
 ```java
 HashMap<String, Object> config = new HashMap<String, Object>();
-config.put(MediaConstants.Config.CHANNEL, "custom-channel");  // Overwrites channel configured in the Data Collection UI.
-config.put(MediaConstants.Config.AD_PING_INTERVAL, 1);   // Overwrites ad content ping interval to 1 second.
-config.put(MediaConstants.Config.MAIN_PING_INTERVAL, 30);   // Overwrites main content ping interval to 30 seconds.
+config.put(MediaConstants.TrackerConfig.CHANNEL, "custom-channel");  // Overwrites channel configured in the Data Collection UI.
+config.put(MediaConstants.TrackerConfig.AD_PING_INTERVAL, 1);   // Overwrites ad content ping interval to 1 second.
+config.put(MediaConstants.TrackerConfig.MAIN_PING_INTERVAL, 30);   // Overwrites main content ping interval to 30 seconds.
 
 MediaTracker mediaTracker = Media.createTracker(config);  // Use the instance for tracking media.
 ```
@@ -134,9 +134,9 @@ MediaTracker mediaTracker = Media.createTracker(config);  // Use the instance fo
 
 ```java
 val config = mapOf(
-                MediaConstants.Config.CHANNEL to "custom-channel",
-                MediaConstants.Config.AD_PING_INTERVAL to 1,
-                MediaConstants.Config.MAIN_PING_INTERVAL to 30,
+                MediaConstants.TrackerConfig.CHANNEL to "custom-channel",
+                MediaConstants.TrackerConfig.AD_PING_INTERVAL to 1,
+                MediaConstants.TrackerConfig.MAIN_PING_INTERVAL to 30,
             )
 val tracker = Media.createTracker(config) // Use the instance for tracking media.
 ```
@@ -179,7 +179,6 @@ NSMutableDictionary* config = [NSMutableDictionary dictionary];
 config[AEPEdgeMediaTrackerConfig.CHANNEL] = @"custom-channel"; // Overrides channel configured in the Data Collection UI.
 config[AEPEdgeMediaTrackerConfig.AD_PING_INTERVAL] = 1; // Overwrites ad content ping interval to 1 second.
 config[AEPEdgeMediaTrackerConfig.MAIN_PING_INTERVAL] = 30; // Overwrites main content ping interval to 30 seconds.
-
 
 tracker = [AEPMobileEdgeMedia createTrackerWithConfig:config];
 ```
