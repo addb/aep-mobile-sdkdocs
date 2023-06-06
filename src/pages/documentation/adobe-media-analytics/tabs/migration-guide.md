@@ -9,7 +9,7 @@ Download extension with dependencies using [Maven](https://maven.apache.org/) & 
 - implementation 'com.adobe.marketing.mobile:media:3.+'
 + implementation 'com.adobe.marketing.mobile:edge:2.+'
 + implementation 'com.adobe.marketing.mobile:edgeidentity:2.+'
-+ implementation 'com.adobe.marketing.mobile:edgemedia:1.+'
++ implementation 'com.adobe.marketing.mobile:edgemedia:2.+'
 ```
 
 <Variant platform="ios" section="install-dependency" repeat="10"/>
@@ -47,9 +47,9 @@ Make changes to your dependencies as shown below:
   .package(url: "https://github.com/adobe/aepsdk-core-ios.git", .upToNextMajor(from: "4.0.0")),
 - .package(url: "https://github.com/adobe/aepsdk-analytics-ios.git", .upToNextMajor(from: "4.0.0")),
 - .package(url: "https://github.com/adobe/aepsdk-media-ios.git", .upToNextMajor(from: "4.0.0"))
-+ .package(url: "https://github.com/adobe/aepsdk-edge-ios.git", .upToNextMajor(from: "2.0.0")),
-+ .package(url: "https://github.com/adobe/aepsdk-edgeidentity-ios.git", .upToNextMajor(from: "2.0.0")),
-+ .package(url: "https://github.com/adobe/aepsdk-edgemedia-ios.git", .upToNextMajor(from: "1.0.0"))
++ .package(url: "https://github.com/adobe/aepsdk-edge-ios.git", .upToNextMajor(from: "4.0.0")),
++ .package(url: "https://github.com/adobe/aepsdk-edgeidentity-ios.git", .upToNextMajor(from: "4.0.0")),
++ .package(url: "https://github.com/adobe/aepsdk-edgemedia-ios.git", .upToNextMajor(from: "4.0.0"))
   ]
 ```
 
