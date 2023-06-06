@@ -184,7 +184,7 @@ iOS
 
 <InlineAlert variant="info" slots="text"/>
 
-The following APIs are **tracker instance** dependent. Create a tracker instance using [`createTracker`](#createTracker) or [`createTrackerWithConfig`](#createTrackerWithConfig) and call the following APIs.
+The following APIs are **tracker instance** dependent. Create a tracker instance using [`createTracker`](#createtracker) or [`createTrackerWithConfig`](#createtrackerwithconfig) and call the following APIs.
 
 ### trackSessionStart
 
@@ -239,7 +239,7 @@ iOS
 
 ### trackComplete
 
-Tracks the completion of the media playback session. Call this method only when the media has been completely viewed. If the viewing session is ended before the media is completely viewed, use [`trackSessionEnd`](#trackSessionEnd) instead.
+Tracks the completion of the media playback session. Call this method only when the media has been completely viewed. If the viewing session is ended before the media is completely viewed, use [`trackSessionEnd`](#tracksessionend) instead.
 
 <TabsBlock orientation="horizontal" slots="heading, content" repeat="2"/>
 
@@ -253,7 +253,7 @@ iOS
 
 ### trackSessionEnd
 
-Tracks the end of a media playback session. Call this method when the viewing session ends, even if the user has not viewed the media to completion. If the media is viewed to completion, use [`trackComplete`](#trackComplete) instead.
+Tracks the end of a media playback session. Call this method when the viewing session ends, even if the user has not viewed the media to completion. If the media is viewed to completion, use [`trackComplete`](#trackcomplete) instead.
 
 <TabsBlock orientation="horizontal" slots="heading, content" repeat="2"/>
 
@@ -299,7 +299,7 @@ Tracks media events.
 
 <InlineAlert variant="info" slots="text"/>
 
-Ad ping interval can now be customized to duration between 1 to 10 seconds using [`createTrackerWithConfig`](#createTrackerWithConfig) API.
+Ad ping interval can now be customized to duration between 1 to 10 seconds using [`createTrackerWithConfig`](#createtrackerwithconfig) API.
 
 <TabsBlock orientation="horizontal" slots="heading, content" repeat="2"/>
 
