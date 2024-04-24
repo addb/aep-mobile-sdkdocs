@@ -7,6 +7,12 @@ Keywords:
 
 # Release notes
 
+## April 23, 2024
+
+### React Native Core 6.0.1
+
+* Added a namespace to the Android module.
+
 ## April 16, 2024
 
 ### Flutter Core 4.x and compatible plugins
